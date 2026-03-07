@@ -1,0 +1,7 @@
+[submodule "NLPLabs-2024"]
+	path = NLPLabs-2024
+	url = https://github.com/CRLala/NLPLabs-2024.git
+
+[submodule "dontpatronizeme"]
+	path = dontpatronizeme
+	url = https://github.com/Perez-AlmendrosC/dontpatronizeme.git
