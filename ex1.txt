@@ -1,0 +1,13 @@
+Ex 1:
+
+Q1. State the primary contributions of this work. (2 Marks)
+The authors created a new dataset called the ‘Don’t Patronize Me!’ dataset, designed to demonstrate the difficulty in identifying and categorising ‘Patronizing and Condescending Language towards vulnerable communities’. As part of this, the authors also created distinct categories for PCL, moving the research beyond just detecting the existence of PCL toward understanding some of the  different societal phenomenons at play. The paper established that both identifying and categorising this language is possible using NLP, and BERT-based methods perform the best.
+
+Q2. Identify the technical strengths that justify the paper’s publication.
+(2 Marks)
+The paper’s area of research was relatively original. There has been a lot of research into language that is explicitly derogatory or discriminatory, but much less so into PCL, where it is much more nuanced due to the subjectivity and how it is commonly unconsciously done. The nuanced nature of PCL also means that the task of judging the original data to label it is much more complex and the paper handled this well. Using three expert annotators is effective for this task requiring insightful judgement about context and tone, instead of using a larger amount of less skilled judges. 
+
+Q3. Highlight the key weaknesses or areas where the authors failed to
+provide sufficient evidence. (2 Marks)
+
+Although the authors highlighted the damaging effects PCL can have from research in sociolinguistics, it doesn’t strongly convey the importance that their work can have in detecting it. No possible use case of the paper is mentioned and suggests that this paper may be of less significance in the NLP community than presented. Also, the method in which the paragraphs are selected could lead to some potential bias that the authors do not discuss. Despite affirming PCL is mainly to do with tone, the paragraphs were retrieved by querying for 10 specific trigger words, which could lead to a model associating specific vocabulary with PCL if PCL rates vary sufficiently between different key words. The paper also does not discuss how this bias may limit generalising further towards other communities that were not one of the 10 keywords.
